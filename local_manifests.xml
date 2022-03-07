@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="arifgans"
+          fetch="https://github.com/ganssjr" />
+  <!-- Trees -->
+        <project path="device/xiaomi/rova" name="device" remote="arifgans" revision="main" />
+        <project path="vendor/xiaomi/rova" name="vendor" remote="arifgans" revision="main" />
+        <project path="kernel/xiaomi/rova" name="kernel" remote="arifgans" revision="main" />
+
+</manifest>
